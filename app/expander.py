@@ -24,7 +24,7 @@ MAX_OCCURRENCES_PER_UID = 10_000
 
 
 class ExpansionError(Exception):
-    """Invalid calendar input; surfaced to the client as HTTP 422."""
+    """Invalid request input; surfaced to the client as HTTP 422."""
 
 
 @dataclass
